@@ -1,0 +1,6 @@
+fastapi[standard]
+httpx
+uvicorn[standard]
+python-dotenv
+transforms
+torch
