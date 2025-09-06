@@ -75,7 +75,7 @@ class SentimentDataset(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.labels)
 
-# create Dataset و DataLoader
+# create Dataset and DataLoader
 train_dataset = SentimentDataset(train_encodings, y_train)
 val_dataset = SentimentDataset(val_encodings, y_val)
 
